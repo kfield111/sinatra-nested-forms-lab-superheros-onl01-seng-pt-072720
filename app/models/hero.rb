@@ -1,16 +1,16 @@
 class Hero
-  attr_accessor :name, :motto
+  attr_accessor :name, :power
 
-  @@teams = []
+  @@heros = []
 
   def initialize(params)
     @name = params[:name]
-    @motto  = params[:motto]
-    @@teams << self
+    @power  = params[:motto]
+    @@heros << self
   end
 
   def self.all
-    @@teams
+    @@heros
   end
 
 end
