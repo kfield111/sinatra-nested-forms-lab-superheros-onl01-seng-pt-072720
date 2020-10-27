@@ -1,4 +1,4 @@
-class Team
+class Hero
   attr_accessor :name, :motto
 
   @@teams = []
